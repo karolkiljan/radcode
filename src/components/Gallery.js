@@ -1,6 +1,6 @@
-import Post from "./Post";
-import "../styles/Gallery.css"
 import {useEffect, useState} from "react";
+import "../styles/Gallery.css";
+import Post from "./Post";
 
 const Gallery = (props) => {
     const [availablePosts, setAvailablePosts] = useState(props.data.sort((a, b) => (a.likes < b.likes ? 1 : -1)));

@@ -1,8 +1,8 @@
-import transformData from "./transformData";
+import {useState} from "react";
 import './App.css';
+import transformData from "./transformData";
 import Filters from "./components/Filters";
 import Gallery from "./components/Gallery";
-import {useState} from "react";
 
 const App = () => {
     const data = transformData();

@@ -1,5 +1,5 @@
-import "../styles/Filters.css"
 import {useState} from "react";
+import "../styles/Filters.css";
 
 const Filters = (props) => {
     const [internalLikes, setInternalLikes] = useState(0)
